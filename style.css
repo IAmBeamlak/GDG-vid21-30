@@ -1,0 +1,215 @@
+body{
+  background-image: url(/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img{
+  height: 70px;
+}
+
+nav{
+  width: 100%;
+  background-color: hsla(0, 0%, 0%, 0.566);
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 120px ;
+}
+
+nav img{
+  float:left;
+  
+}
+nav h1{
+  float: left;
+  margin-left: 0px;
+  padding-left:0px;
+  color: white;
+}
+
+nav ul{
+  float: right;
+  z-index: 3;
+}
+nav ul li{
+  float: left;
+  list-style: none;
+ position: relative; 
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  display: block;
+  font-family: "Orbitron", sans-serif;
+  font-size: 25px;
+}
+
+nav ul li a:hover {
+  background-color:  hsla(0, 0%, 0%, 0.511);}
+
+nav ul li ul{
+  position: absolute;
+  display: none;
+  background-color:  hsla(0, 0%, 0%, 0.566);
+  
+  
+}
+nav ul li:hover ul{
+  display: block;
+}
+
+
+nav ul li ul li {
+  line-height: 1;
+  width: 180px;
+  padding: 6px;
+  
+}
+
+nav ul li ul li a{
+   padding: 10px 6px;
+  
+   
+ 
+}
+
+nav ul li ul li:hover{
+ background-color:  hsla(0, 0%, 0%, 0.566);
+ 
+}
+nav ul li ul li a:hover{
+  color: hsl(13, 100%, 50%);
+}
+
+h1{
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  margin: 50px;
+  font-size: 50px;
+}
+p::first-letter{
+  font-size: 50px;
+
+}
+
+
+.para1 {
+  color: white;
+  width: 800px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  text-align:justify;
+  position: absolute;
+  left: 80px;
+  
+}
+.containerirp{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  
+  left: 1000px;
+  top: 200px
+
+}
+
+.containerirp img{
+ position: relative;
+ height: 600px;
+ bottom: 100px;
+ right: 90px;
+
+}
+
+.pagination{
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  left: 35%;
+  
+
+}
+
+.pagination a{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Orbitron";
+  background-color: hsla(0, 0%, 0%, 0.566);
+  border-radius: 10px;
+}
+.pagination a.active{
+  background-color:  hsl(10, 94%, 58%);
+}
+.pagination a:hover:not(.active){
+  background-color:  hsla(13, 100%, 50%, 0.573);
+}
+
+
+.prog{
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 35px;
+}
+
+.workoutlists{
+ text-align: center;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+
+.Anime{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 70px;
+  margin-top: 10px;
+ 
+}
+.Anime figure img{
+  border-radius: 5px;
+}
+.Anime figcaption{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.Anime li a{
+  text-decoration: none;
+  display: inline;
+  color: white;
+  padding: 20px;
+ 
+  
+}
+
+
+
+li img{
+  width: 200px;
+  height: 200px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
